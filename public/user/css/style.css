@@ -1,0 +1,122 @@
+
+/*Extra small device*/
+
+
+@media(max-width: 575px)
+{
+   .post {
+
+    width: 100%;
+  }
+
+  .body_width
+  {
+    width: 100%;
+  }
+
+  .input_width_number
+  {
+   width: 50%;
+ }
+
+}
+
+
+@media(min-width:576px)
+{
+  .input_width
+  {
+   width: 75%;
+ }
+
+ .input_width_number
+ {
+   width: 30%;
+ }
+
+ .body_width
+ {
+   width: 75%;
+ }
+
+}
+
+
+/* Medium Device*/
+
+@media(min-width:768px)
+{
+  .body_width
+  {
+    width: 75%;
+  }
+
+  .input_width
+  {
+
+   width: 75%;
+ }
+ .input_width_number
+ {
+   width: 30%;
+ }
+
+ .post {
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+}
+
+
+/* Large Device*/
+
+@media(min-width:992px)
+{
+  .body_width
+  {
+    width: 75%;
+  }
+
+  .input_width
+  {
+   width: 50%;
+ }
+
+ .input_width_number
+ {
+   width: 20%;
+ }
+
+
+
+}
+
+
+
+/* Extra large Device*/
+
+
+@media(min-width:1200px)
+{
+  .body_width
+  {
+    width: 75%;
+  }
+
+  .input_width
+  {
+   width: 50%;
+ }
+
+ .input_width_number
+ {
+   width: 20%;
+ }
+
+
+}
+
+}

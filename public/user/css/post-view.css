@@ -1,0 +1,71 @@
+
+/*Extra small device*/
+
+
+@media(max-width: 575px)
+{
+}
+
+
+@media(min-width:576px)
+{
+
+ .comment_width
+ {
+  width:75%;
+ }
+
+}
+
+
+/* Medium Device*/
+
+@media(min-width:768px)
+{
+
+ .comment_width
+ {
+  width:75%;
+ }
+
+}
+
+
+/* Large Device*/
+
+@media(min-width:992px)
+{
+
+  .comment_width
+ {
+  width:50%;
+ }
+
+}
+
+
+
+/* Extra large Device*/
+
+
+@media(min-width:1200px)
+{
+  .comment_width
+ {
+  width:50%;
+ }
+
+}
+
+
+.profile_link
+{
+  color: black;
+}
+
+.profile_link:hover
+{
+  color: blue;
+}
+
+}
